@@ -22,6 +22,8 @@ verranno aggiunti/e una cartella chiamata
 ## Comandi da eseguire per fixare comportamenti anomali
 
 npm install -> reinstalla tutte le librerie  
+quindi, se volessi installare un progetto preso da github,prima o scarico,
+poi lancero' il comando npm install per riscaricare tutte le librerie che servono al progetto per funzionare.
 
 
 ## Prima di pushare un progetto su Github
@@ -31,3 +33,11 @@ creare un file chiamato .gitignore che NON pusherà la cartela delle librerie lo
 questo sia per NODE_MODULES ma soprattutto per il file che conterrà le vostre password
 
 del file .env  ->>>> IMPORTANTISSIMO
+
+
+## Eliminare npm da un progetto 
+
+Per riportare il progetto allo stato iniziale,
+
+si può cancellare la cartella NODE_MODULES, e il file package-lock.json 
+
