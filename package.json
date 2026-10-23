@@ -1,0 +1,16 @@
+{
+  "name": "Applicazione di test",
+  "version": "0.0.1",
+  "description": "Test di comprensione Node/npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Diego Aneli",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
